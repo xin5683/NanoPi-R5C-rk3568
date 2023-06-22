@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set default theme to luci-theme-design
-uci set luci.main.mediaurlbase='/luci-static/design'
+uci set luci.main.mediaurlbase='/luci-static/argon'
 
 # Disable opkg signature check
 sed -i 's/option check_signature/# option check_signature/g' /etc/opkg.conf
